@@ -15,6 +15,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <!--Text words-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/words"
+        app:layout_constraintBottom_toBottomOf="@id/imgTop"
+        android:text="@string/words"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="@dimen/_20mdp"
+        android:textSize="@dimen/_28font_mdp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
     <!--Tutorial Text -->
     <TextView
         android:id="@+id/txtTutorial"

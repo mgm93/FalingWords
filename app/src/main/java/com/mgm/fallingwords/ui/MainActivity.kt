@@ -13,6 +13,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     //Binding
     private lateinit var binding: ActivityMainBinding
+
     //Other
     private lateinit var navController: NavController
 
@@ -29,5 +30,17 @@ class MainActivity : AppCompatActivity() {
 
     override fun onNavigateUp(): Boolean {
         return navController.navigateUp() || super.onNavigateUp()
+    }
+
+    override fun onBackPressed() {
+        when (navController.currentDestination?.id) {
+            R.id.homeFragment -> {
+                finish()
+            }
+            R.id.gameResultSheet , R.id.gameFragment -> {
+                navController.navigate(R.id.homeFragment)
+            }
+            else -> super.onBackPressed()
+        }
     }
 }

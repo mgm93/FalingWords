@@ -3,10 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Workspace/FalingWords/app/src/main/res/layout/activity_main.xml" value="0.1983695652173913" />
-        <entry key="..\:/Workspace/FalingWords/app/src/main/res/layout/fragment_game.xml" value="0.321875" />
-        <entry key="..\:/Workspace/FalingWords/app/src/main/res/layout/fragment_home.xml" value="0.1983695652173913" />
         <entry key="..\:/work/FallingWords/app/src/main/res/layout/activity_main.xml" value="0.24592391304347827" />
+        <entry key="..\:/work/FallingWords/app/src/main/res/layout/fragment_game.xml" value="0.24592391304347827" />
+        <entry key="..\:/work/FallingWords/app/src/main/res/layout/fragment_home.xml" value="0.24592391304347827" />
+        <entry key="..\:/work/FallingWords/app/src/main/res/layout/layout_result_sheet.xml" value="0.22393162393162394" />
       </map>
     </option>
   </component>

@@ -2,7 +2,12 @@
     <string name="app_name">FallingWords</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="tutorial">help \nhelp \nOK</string>
+    <string name="tutorial">Rules of the game:\n\n1- Time to answer each question is 3 second\n2- If answer correct increase score\n3- If wrong or skip answer you lose</string>
     <string name="start_game">Start</string>
     <string name="score">Score %d</string>
+    <string name="wrong">Wrong</string>
+    <string name="correct">Correct</string>
+    <string name="play_again">Play Again</string>
+    <string name="your_score">Your Score</string>
+    <string name="words">W-O-R-D-S</string>
 </resources>

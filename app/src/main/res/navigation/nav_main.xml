@@ -10,13 +10,36 @@
         android:name="com.mgm.fallingwords.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_homeFragment_to_gameFragment"
-            app:destination="@id/gameFragment" />
+
     </fragment>
+    <action
+        android:id="@+id/action_homeFragment_to_gameFragment"
+        app:destination="@id/gameFragment" />
     <fragment
         android:id="@+id/gameFragment"
         android:name="com.mgm.fallingwords.ui.game.GameFragment"
         android:label="fragment_game"
-        tools:layout="@layout/fragment_game" />
+        tools:layout="@layout/fragment_game" >
+
+    </fragment>
+    <action
+        android:id="@+id/action_gameFragment_to_gameResultSheet"
+        app:destination="@id/gameResultSheet" />
+    <dialog
+        android:id="@+id/gameResultSheet"
+        android:name="com.mgm.fallingwords.ui.game.GameResultSheet"
+        android:label="GameResultSheet" >
+
+        <argument
+            android:name="score"
+            app:argType="integer"
+            android:defaultValue="0" />
+
+    </dialog>
+    <action
+        android:id="@+id/action_gameResultSheet_to_gameFragment"
+        app:destination="@id/gameFragment" />
+    <action
+        android:id="@+id/action_gameResultSheet_to_homeFragment"
+        app:destination="@id/homeFragment" />
 </navigation>
