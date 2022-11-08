@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FallingWords</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tutorial">help \nhelp \nOK</string>
+    <string name="start_game">Start</string>
+    <string name="score">Score %d</string>
 </resources>
