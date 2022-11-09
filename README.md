@@ -9,7 +9,8 @@ While the word is displayed, a word in language two, will fall down on the scree
 The player will have to choose if the falling word is correct or incorrect translation.
 A timer counts as the word falls to the bottom of screen, before which the player should have given an answer.
 The player need to answer before the word reaches the bottom of the screen.The Game includes a counter that gives the player feedback.
-The data for the game can be found [Here](https://gist.githubusercontent.com/DroidCoder/7ac6cdb4bf5e032f4c737aaafe659b33/raw/baa9fe0d586082d85db71f346e2b039c580c5804/words.json
+The data for the game can be found 
+[Here](https://gist.githubusercontent.com/DroidCoder/7ac6cdb4bf5e032f4c737aaafe659b33/raw/baa9fe0d586082d85db71f346e2b039c580c5804/words.json
 
 # Core Libraries
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture/)
